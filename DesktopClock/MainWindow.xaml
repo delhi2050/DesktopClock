@@ -63,9 +63,6 @@
 
             <Separator />
 
-            <MenuItem Command="{Binding OpenReleasesPageCommand}"
-                      Header="Check for _updates" />
-
             <MenuItem Command="{Binding OpenIssueTrackerCommand}"
                       Header="Give _feedback" />
 

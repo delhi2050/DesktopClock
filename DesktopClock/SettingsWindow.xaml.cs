@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -184,11 +184,6 @@ public partial class SettingsWindow : Window
         // Copy and start the new clock.
         File.Copy(App.MainFileInfo.FullName, newExePath);
         Process.Start(newExePath);
-    }
-
-    private void CheckForUpdates(object sender, RoutedEventArgs e)
-    {
-        OpenUrl("https://github.com/danielchalmers/DesktopClock/releases");
     }
 
     private void SettingsScrollViewer_Loaded(object sender, RoutedEventArgs e)

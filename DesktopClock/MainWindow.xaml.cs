@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
@@ -95,12 +95,6 @@ public partial class MainWindow : Window
     public void OpenSettingsWindow()
     {
         App.ShowSingletonWindow<SettingsWindow>(this);
-    }
-
-    [RelayCommand]
-    public void OpenReleasesPage()
-    {
-        OpenUrl("https://github.com/danielchalmers/DesktopClock/releases");
     }
 
     [RelayCommand]
